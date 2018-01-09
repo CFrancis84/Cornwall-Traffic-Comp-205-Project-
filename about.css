@@ -132,6 +132,31 @@ div.viddiv {
     color: white;
 }
 
+div.mission {
+    
+    height: 475px;
+    width: 825px;
+    background-color: #D31010;
+    border: none;
+    border-radius: 3px;
+    
+}
+
+#statement {
+    text-decoration: underline;
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+#missiontext {
+    
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
 
 
 
