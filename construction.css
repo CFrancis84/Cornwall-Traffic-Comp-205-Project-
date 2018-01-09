@@ -103,7 +103,10 @@ div.second {
    text-align: center;
 }
 
-
+div.trafficpic {
+    border: 2px;
+    border-color: grey;
+}
 
 
 

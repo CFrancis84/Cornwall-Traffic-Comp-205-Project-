@@ -103,6 +103,34 @@ div.second {
    text-align: center;
 }
 
+#suggestionbox{
+    
+    position: center;
+}
+
+div.suggestion {
+    
+    position: center;
+    height: 200px;
+    width: 300px;
+    background-color: grey;
+    border: 0;
+    border-radius: 3px;
+
+}
+
+textarea.suggestion {
+    
+    width: 300px;
+    height: 150px;
+    
+}
+
+p.suggesttext {
+    
+    font-size: 20px;
+    color: white;
+}
 
 
 
