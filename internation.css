@@ -1,22 +1,48 @@
-body {
+#international {
+    margin-top: 100px;
+    width: 500px;
+    background-color: grey;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 30px;
+    color: white;
+    display: block;
+    position: center;
+
+}
+
+#bridgelink {
+    
+    width: 500px;
+    background-color: grey;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    display: block;
+    position: center;
    
 }
 
+
 div.second {
+    
     width: 100%;
     height: 500px;
+    background-color: rgba(255, 255, 255, 0.6);
     background-image: url(https://yourachoice.files.wordpress.com/2014/01/st_-lawrence-college-logo2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: relative;
     margin-top: 100px;
     margin-bottom: 100px;
-    opacity: 0.25;
-    z-index: -1;
-    
-}
+   
+}  
 
-                .dropheader {
+.dropheader {
                    
                     background-color: #D31010;
                     color: white;
@@ -75,39 +101,6 @@ div.second {
    background-color: grey;
    color: white;
    text-align: center;
-}
-
-#headline {
-
-}
-
-#international {
-    margin-top: 100px;
-    width: 500px;
-    background-color: grey;
-    color: white;
-    border: none;
-    border-radius: 3px;
-    font-size: 30px;
-    color: white;
-    display: block;
-    position: center;
-
-}
-
-#bridgelink {
-    
-    width: 500px;
-    background-color: grey;
-    color: white;
-    border: none;
-    border-radius: 3px;
-    font-size: 30px;
-    text-align: center;
-    color: white;
-    display: block;
-    position: center;
-   
 }
 
 
