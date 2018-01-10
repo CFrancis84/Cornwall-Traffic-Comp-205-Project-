@@ -18,13 +18,13 @@
                     <button class="dropheader">
                         <img src="slc-logo.png">
                     </button>
-                 <div class="dropdown-content">
-                     <a href="./index.html">Home</a>
-                     <a href="./about.html">About Us</a>
-                     <a href="./traffic_updates.html">Traffic Updates</a>
-                     <a href="./construction.html">Construction</a>
-                     <a href="./internation.html">International Travellers</a>
-                      <a href="./contact.html">Contact Us</a>
+                  <div class="dropdown-content">
+                     <a href="/index.html">Home</a>
+                     <a href="/about.html">About Us</a>
+                     <a href="/traffic_updates.html">Traffic Updates</a>
+                     <a href="/construction.html">Construction</a>
+                     <a href="/internation.html">International Travellers</a>
+                      <a href="/contact.html">Contact Us</a>
                       <a href="http://www.stlawrencecollege.ca/">St. Lawrence College Home</a>
                     </div>
                 </div>
@@ -34,26 +34,50 @@
             <center><p class="trafupdate">Traffic Updates</p></center>
             
             <div class="second">
-               <center> 
-                   
-                   <h2 class="link"> Due to google server problem it will take some time to update latest Traffic of Cornwall city on our site.</h2> 
-                   <h2 class="link"> Use below Link to check live Traffic</h2>
-                   <a href="https://www.google.ca/maps/place/Cornwall,+ON/@45.0434279,-74.9437998,10.71z/data=!4m5!3m4!1s0x4ccc19cb8559e755:0x5037b28c7231430!8m2!3d45.0212762!4d-74.730345!5m1!1e1">
-            
-                    <h1 class="link" >Cronwall Live Traffic</h1>
-                    </a>
-                    <center><iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d26823.090915723868!2d-74.72247074179798!3d45.03649276680026!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sca!4v1515460947004" width="600" height="450" border="4" style="border: 5px solid black" allowfullscreen></iframe></center>
                 
-               </center>
                 <!--Section One-->
         <section id="">
-             
+            
+            <center>
+               <div class="weather">
+                   
+                    <p id="weathupdate">SLC Inclement Weather Update</p>
+                    <p id="weathtext">
+                    • Date: 1/8/18-
+                    Classes and activities at the College are running as scheduled.<br>
+                    We will continue to monitor weather and conditions. Please travel safely.</p>
+                    
+            
+               </div> 
+            </center>
+                              
         </section>
                 
                 <!--Section Two-->
         <section id="">
-                
-                
+            <center>
+               <div class="message">
+                   
+                <button onclick="myFunction()">What does this mean?</button>
+
+                    <div id="divMessage">
+                        <p id="myMessage">Get to class!</p>
+                    </div>
+
+                    <script>
+                    function myFunction() {
+                        var x = document.getElementById("divMessage");
+                        if (x.style.display === "none") {
+                            x.style.display = "block";
+                        } else {
+                            x.style.display = "none";
+                        }
+                    }
+                    </script>
+                   
+                   </div> 
+            </center>
+                     
         </section>
                 
                 <!--Section Thre-->
