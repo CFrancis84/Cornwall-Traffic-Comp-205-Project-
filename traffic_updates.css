@@ -135,6 +135,49 @@ div.second {
    text-align: center;
 }
 
+div.weather {
+    
+    height: 375px;
+    width: 825px;
+    background-color: #D31010;
+    border: none;
+    border-radius: 3px;
+    
+}
+
+#weathupdate {
+    text-decoration: underline;
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+#weathtext {
+    
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+div.message {
+    margin: 5%;
+    height: 175px;
+    width: 325px;
+    background-color: #D31010;
+    border: none;
+    border-radius: 3px;
+    
+}
+
+#myMessage {
+    
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
 
 
 

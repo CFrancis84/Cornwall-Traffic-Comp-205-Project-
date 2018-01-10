@@ -37,13 +37,47 @@
                 
                 <!--Section One-->
         <section id="">
-             
+            
+            <center>
+               <div class="weather">
+                   
+                    <p id="weathupdate">SLC Inclement Weather Update</p>
+                    <p id="weathtext">
+                    • Date: 1/8/18-
+                    Classes and activities at the College are running as scheduled.<br>
+                    We will continue to monitor weather and conditions. Please travel safely.</p>
+                    
+            
+               </div> 
+            </center>
+                              
         </section>
                 
                 <!--Section Two-->
         <section id="">
-                
-                
+            <center>
+               <div class="message">
+                   
+                <button onclick="myFunction()">What does this mean?</button>
+
+                    <div id="divMessage">
+                        <p id="myMessage">Get to class!</p>
+                    </div>
+
+                    <script>
+                    function myFunction() {
+                        var x = document.getElementById("divMessage");
+                        if (x.style.display === "none") {
+                            x.style.display = "block";
+                        } else {
+                            x.style.display = "none";
+                        }
+                    }
+                    </script>
+                   
+                   </div> 
+            </center>
+                     
         </section>
                 
                 <!--Section Thre-->
