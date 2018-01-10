@@ -1,3 +1,10 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
 h1 {
     text-shadow: 0px 2px grey;
     text-decoration-line: underline;
@@ -93,13 +100,13 @@ div.second {
 
                 .dropdown:hover .dropdown-content {
                     display: block;
-                    width: auto;
+                    width: 1335px;
                 }
 
                  .dropheader {
                     text-align: left;
                     background-color: #D31010;
-                    width: auto;
+                    width: 1335px;
                 }
 
 #footer {
