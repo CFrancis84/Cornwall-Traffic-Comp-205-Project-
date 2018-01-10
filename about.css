@@ -93,6 +93,7 @@ div.second {
 
                 .dropdown:hover .dropdown-content {
                     display: block;
+                    width: 1335px;
                 }
 
                  .dropheader {

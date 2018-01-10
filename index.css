@@ -89,10 +89,12 @@ div.second {
                 .dropdown-content {
                     background-color: grey;
                     border-radius: 5px;
+                    
                 }
 
                 .dropdown:hover .dropdown-content {
                     display: block;
+                    width: 1335px;
                 }
 
                  .dropheader {

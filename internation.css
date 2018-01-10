@@ -40,6 +40,65 @@ p.inttrav {
    
 }
 
+#canada {
+    text-shadow: 2px 2px 4px #000000;
+    margin-top: 100px;
+    width: 500px;
+    background-color: grey;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 30px;
+    color: white;
+    display: block;
+    position: center;
+
+}
+
+#canbridge {
+    
+    width: 500px;
+    background-color: grey;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    display: block;
+    position: center;
+   
+}
+
+#american {
+    text-shadow: 2px 2px 4px #000000;
+    margin-top: 100px;
+    width: 500px;
+    background-color: grey;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 30px;
+    color: white;
+    display: block;
+    position: center;
+
+}
+
+#usbridge {
+    
+    width: 500px;
+    background-color: grey;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    display: block;
+    position: center;
+   
+}
 
 div.second {
     
@@ -94,6 +153,7 @@ div.second {
 
                 .dropdown:hover .dropdown-content {
                     display: block;
+                    width: 1335px;
                 }
 
                  .dropheader {
