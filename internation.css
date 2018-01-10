@@ -153,13 +153,13 @@ div.second {
 
                 .dropdown:hover .dropdown-content {
                     display: block;
-                    width: 1335px;
+                    width: auto;
                 }
 
                  .dropheader {
                     text-align: left;
                     background-color: #D31010;
-                    width: 1335px;
+                    width: auto;
                 }
 
 #footer {
