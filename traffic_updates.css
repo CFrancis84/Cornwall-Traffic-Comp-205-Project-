@@ -49,11 +49,12 @@ p.trafupdate {
 div.second {
     
     width: 100%;
-    height: 1000px;
-    background-image: url(https://yourachoice.files.wordpress.com/2014/01/st_-lawrence-college-logo2.jpg);
+    height:1000px;
+    background-image: url(http://cornwallfreenews.com/wp-content/uploads/2011/10/Sharks-jpeg.jpg);
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: relative;
+    background-attachment: relative; 
     margin-top: 100px;
     margin-bottom: 100px;
    
@@ -69,6 +70,13 @@ div.second {
                     border: none;
                     border-radius: 5px;
                     cursor: pointer;
+                    display: flex;
+                    align-content: center;
+                    justify-content: center;
+                }
+
+                .dropheader img{
+                    display: block;
                 }
 
                 .dropdown {
@@ -106,6 +114,12 @@ div.second {
                     text-align: left;
                     background-color: #D31010;
                     width: 1335px;
+                }
+
+                .dropheaderText{
+                    width: 25%;
+                    text-align: center;
+                    font-size: 2em;
                 }
 
 #footer {

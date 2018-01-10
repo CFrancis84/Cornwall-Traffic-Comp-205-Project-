@@ -1,0 +1,81 @@
+.infoContactCardContainer{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.infoContactCard{
+    position: relative;
+    width: 55%;
+    height: auto;
+    background-color: #D31010;
+    display: inline-block;
+    padding: 3%;
+    margin: 3% 1% 0%;
+    border-radius: 7%
+}
+
+.infoContactCard h1{
+    color: white;
+    font-family: 'Bungee', cursive;
+    font-size: 4vmin;
+    text-align: center;
+    line-height: 100%;
+    margin-bottom: 3%;
+}
+
+.infoContactCard h2{
+    color: white;
+    font-family: 'Bungee', cursive;
+    font-size: 2vmin;
+    text-align: center;
+    border-bottom: solid 3px;
+    line-height: 140%;
+    margin-bottom: 2%;
+}
+
+.infoContactList li{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3vmin;
+}
+
+.footerLinks{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.fa-facebook-square{
+    font-size: 12vmin; 
+    padding: 0px 25px 0px;
+}
+
+.fa-twitter-square{
+    font-size: 12vmin; 
+    padding: 0px 25px 0px;
+}
+
+.footerLinks a{
+    color: black;
+}
+
+.footerLinks a:hover{
+    transition: all 0.3s ease-in-out;
+    color: white;
+}
+
+.infoContainer{
+    width: 40%;
+    margin: 0 auto;
+    font-size: 24px;
+    padding: 25px;
+}
+
+.infoContactCard img{
+    position: relative;
+    width: 90%;
+    top: 0%;   
+    border-radius: 50%;
+    left: 50%;
+    transform: translate(-50%);
+}
