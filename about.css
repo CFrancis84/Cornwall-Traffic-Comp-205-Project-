@@ -1,10 +1,15 @@
-html,
-body {
-    padding: 0;
-    margin: 0;
+.top img{
+        float:left;
+        width: 150px;
+        height: 150px;
+        position: relative;
+        top:-30px;
 }
 
-
+.top h1{
+    position: relative;
+    left:18px;
+}
 h1 {
     text-shadow: 0px 2px grey;
     text-decoration-line: underline;
@@ -50,12 +55,11 @@ p.aboutus {
 div.second {
     
     width: 100%;
-    height:1000px;
-    background-image: url(http://cornwallfreenews.com/wp-content/uploads/2011/10/Sharks-jpeg.jpg);
-    background-size: contain;
+    height: 1000px;
+    background-image: url(https://yourachoice.files.wordpress.com/2014/01/st_-lawrence-college-logo2.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: relative; 
+    background-attachment: relative;
     margin-top: 100px;
     margin-bottom: 100px;
    
@@ -71,13 +75,6 @@ div.second {
                     border: none;
                     border-radius: 5px;
                     cursor: pointer;
-                    display: flex;
-                    align-content: center;
-                    justify-content: center;
-                }
-
-                .dropheader img{
-                    display: block;
                 }
 
                 .dropdown {
@@ -108,7 +105,6 @@ div.second {
 
                 .dropdown:hover .dropdown-content {
                     display: block;
-                    width: 1335px;
                 }
 
                  .dropheader {
@@ -117,11 +113,6 @@ div.second {
                     width: 1335px;
                 }
 
-                .dropheaderText{
-                    width: 25%;
-                    text-align: center;
-                    font-size: 2em;
-                }
 #footer {
    position: relative;
    left: 0;
@@ -153,31 +144,6 @@ div.viddiv {
     color: white;
 }
 
-div.mission {
-    
-    height: 475px;
-    width: 825px;
-    background-color: #D31010;
-    border: none;
-    border-radius: 3px;
-    
-}
-
-#statement {
-    text-decoration: underline;
-    text-shadow: 2px 2px 4px #000000;
-    text-align: center;
-    font-size: 40px;
-    color: white;
-}
-
-#missiontext {
-    
-    text-shadow: 2px 2px 4px #000000;
-    text-align: center;
-    font-size: 40px;
-    color: white;
-}
 
 
 
